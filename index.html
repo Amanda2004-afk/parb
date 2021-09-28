@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <style>
+                  table, th, td {
+              border: 1px solid rgb(214, 32, 32);
+              border-collapse: collapse;
+              background-color: rgb(238, 85, 192);
+            }
+            body{
+                  background-image:url(bildee.jpg) ;
+                  background-repeat:no-repeat;
+              }
+          
+            </style>
+            <h1>OGAS</h1>
+            <div class="myDiv">
+                <h2>Ogu apraksts</h2>
+                <p>Oga  ir daudzsēklu auglis ar sulīgu augļapvalka vidējo (mezokarpu) un iekšējo kārtu (endokarpu).</p>
+              </div>
+            <table>
+                <tr>
+                  <th>oga1</th>
+                  <th>oga2</th>
+                  <th>oga3</th>
+                </tr>
+                <tr>
+                  <td>zemene</td>
+                  <td>avene</td>
+                  <td>mellene</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>0,5</td>
+                  <td>0,7</td>
+                </tr>
+              </table>
+               
+            <img src="bilde.jpg"width="200" height="200" >
+        </head>
+        
+</script>
+        <button class="button button1">zemene </button>
+          <button class="button button2">avene</button>
+          <button class="button button3">mellene</button>
+          <h1 onclick="changeText(this)">uzspied uz teksta!</h1>
+          <script>
+            
+          function changeText(id) {
+            id.innerHTML = "lai tev jauka diena!";
+          }
+          </script>
+          <p id="demo" onclick="myFunction()">uzspied uz mani!</p>
+          
+          <script>
+          function myFunction() {
+              document.getElementById("demo").style.color = "pink";
+           
+          }
+  
+ 
+          </script>
+    </body>
+</html>
